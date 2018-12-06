@@ -98,6 +98,8 @@ namespace ConsoleAppMatrixTheme
 
         static void Main(string[] args)
         {
+            //Clear Console
+            Console.Clear();
             //array of threads - the number of threads corresponds to a third of the width of the console
             Thread[] threads = new Thread[Console.WindowWidth / 3];
             //launching threads
